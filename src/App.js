@@ -3,14 +3,8 @@ import {Component} from 'react';
 import {Switch ,Route, Link } from 'react-router-dom';
 import './App.css';
 import Homepage from './pages/homepage/homepage.component'
+import ShopPage from './pages/shop/shop.component'
 
-
-const HatsPage = () => 
-  (
-    <div>
-      <h1>HatsPage</h1>    
-    </div>
-  );
 
 class App extends Component {
 
@@ -22,7 +16,7 @@ class App extends Component {
     <div>
     
     <Route  exact path ="/"  component = {Homepage}  />
-    <Route  exact path ="/hats"  component = {HatsPage}  />
+    <Route  exact path ="/shop"  component = {ShopPage}  />
 
     </div>
   );
