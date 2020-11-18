@@ -4,6 +4,7 @@ import {Switch ,Route ,Redirect } from 'react-router-dom';
 import {connect } from  'react-redux';
 import {createStructuredSelector} from 'reselect';
 
+
 import './App.css';
 
 import Homepage from './pages/homepage/homepage.component';
@@ -18,17 +19,15 @@ import { setCurrentUser } from './redux/user/user.action';
 
 
 class App extends Component {
-
     
- 
 unsubscribeFromAuth = null;
 
  componentDidMount () {
-  const {setCurrentUser } = this.props;
+  const {setCurrentUser} = this.props;
     this.unsubscribeFromAuth = auth.onAuthStateChanged( async userAuth =>{
       if (userAuth){
         const userRef = await creatUserProfileDocument(userAuth);
-
+          
          userRef.onSnapshot(snapShot => {
               
             setCurrentUser({
@@ -44,6 +43,7 @@ unsubscribeFromAuth = null;
       
       else{} 
       setCurrentUser(userAuth);
+      
     });
  }
  componentWillUnmount() {
@@ -68,7 +68,7 @@ unsubscribeFromAuth = null;
  }
     
  const mapStateToProps = createStructuredSelector({
-   currentUser: selectCurrentUser
+   currentUser: selectCurrentUser,
  });
 
  const mapDispatchToProps = dispatch => ({
