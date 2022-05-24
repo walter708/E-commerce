@@ -1,3 +1,10 @@
+
+
+![Homepage](https://user-images.githubusercontent.com/55052227/169927689-b6e0ebf9-062c-42c4-b822-ca3d0317d841.png)
+![Checkout ](https://user-images.githubusercontent.com/55052227/169927745-74e08201-a2d6-482a-914f-da7d08685c50.png)
+![Payment](https://user-images.githubusercontent.com/55052227/169927760-0be66676-2f93-4f3d-9248-e721d9b7fea9.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
