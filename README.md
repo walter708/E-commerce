@@ -3,13 +3,6 @@
 ![Homepage](https://user-images.githubusercontent.com/55052227/169927689-b6e0ebf9-062c-42c4-b822-ca3d0317d841.png)
 
 
-## Checkout
-![Checkout ](https://user-images.githubusercontent.com/55052227/169927745-74e08201-a2d6-482a-914f-da7d08685c50.png)
-
-## Payment
-![Payment](https://user-images.githubusercontent.com/55052227/169927760-0be66676-2f93-4f3d-9248-e721d9b7fea9.png)
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -49,3 +42,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+
+## Checkout
+![Checkout ](https://user-images.githubusercontent.com/55052227/169927745-74e08201-a2d6-482a-914f-da7d08685c50.png)
+
+## Payment
+![Payment](https://user-images.githubusercontent.com/55052227/169927760-0be66676-2f93-4f3d-9248-e721d9b7fea9.png)
